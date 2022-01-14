@@ -1,0 +1,10 @@
+pass : hfeztplSC$5T^iaAzC4C
+
+pass db : TjRXe1jarlJQs?[e
+
+username db : userdb (id18267220_userdb)
+name db : paketwisatadb (id18267220_paketwisatadb)
+https://files.000webhost.com/
+
+#Link API server yang sudah dihosting :
+https://paketwisataapi.000webhostapp.com/retrieve.php
