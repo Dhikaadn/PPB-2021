@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppTempellMahbang</string>
+    <string name="title_activity_menu">Menu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Menu</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="google_mtv_coord_zoom12">geo:37.422114,-122.086744?z=12</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tv_desc1">Pada paket 1, para wisatawan akan mendapatkan beberapa objek wisata, diantaranya view terasering sawah dengan pemandangan gunung dan bukit. Tidak hanya itu saja, para wisatawan juga mendapatkan spot yang menarik jika berada di terasering yang tertinggi.</string>
+    <string name="tv_desc2">Layanan yang ada di paket 2, yaitu para wisatawan dapat bersepeda dengan pemandangan desa dan sawah yang asri. Bagi wisatawan yang ingin bersepeda, tetapi tidak membawa sepeda. Agen kami menyediakan sepeda untuk disewakan.</string>
+    <string name="tv_desc3">Pada paket 3, tawaran khusus yang akan kami tawarkan kepada pengunjung adalah dapat melihat peternakan sapi di desa wisata yang asri. Tidak hanya melihat, para pengunjung juga dapat memberi makan dan memeras susu sapi.</string>
+    <string name="tv_desc4">Untuk paket 4, layanan yang kami tawarkan adalah menyediakan gazebo pada para wisatawan dengan sejuknya hawa desa dan indahnya pemandangan alam. Tidak hanya pada pagi dan siang hari, pada malam hari pun kami tetap menyediakan gazebo bagi para wisatawan.</string>
+    <string name="tv_desc5">Pada paket 5, kami menawarkan wisatawan untuk berjalan-jalan mengelilingi desa, Tidak hanya mengelilingi desa saja, wisatawan juga dapat bercengkerama dengan penduduk asli desa disana.</string>
+    <string name="tv_desc6">Untuk paket 6 ini, Wisatawan ditawarkan untuk berkemah di pemukiman desa wisata. Objek yang disuguhkan di paket ini tentunya dapat bermalam dengan nyaman dan sejuk yang ditemani dengan pemandangan alam desa yang mempesona.</string>
+</resources>

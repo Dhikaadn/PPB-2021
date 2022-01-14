@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_harga"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="harga"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_total" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="36dp"
+            android:text="Update"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_total"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="total"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_paket6" />
+
+        <EditText
+            android:id="@+id/et_paket1"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Total paket1"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/et_paket2"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Total paket2"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_paket1" />
+
+        <EditText
+            android:id="@+id/et_paket3"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Total paket3"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_paket2" />
+
+        <EditText
+            android:id="@+id/et_paket4"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Total paket4"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_paket3" />
+
+        <EditText
+            android:id="@+id/et_paket5"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Total paket5"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_paket4" />
+
+        <EditText
+            android:id="@+id/et_paket6"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Total paket6"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_paket5" />
+
+        <Button
+            android:id="@+id/btn_ubah"
+            android:layout_width="262dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="36dp"
+            android:text="Update"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_harga" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
